@@ -1,0 +1,16 @@
+h1 {
+  font-size: 3rem;
+}
+
+section {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(16, 16, 16, 0), /* Negro con 70% de opacidad */
+      rgba(16, 16, 16, 1)  /* Negro con 30% de opacidad */
+    ),
+    url('https://www.11grams.in/wp-content/uploads/2024/05/Rectangle-1.png'); /* Imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white; /* Color del texto para que contraste con el fondo oscuro */
+}
